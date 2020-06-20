@@ -5,6 +5,6 @@
   },
   "scripts": {
     "postinstall": "yarn",
-    "start": "node index"
+    "start": "node index.js"
   }
 }
