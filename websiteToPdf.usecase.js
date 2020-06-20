@@ -15,7 +15,7 @@ module.exports.websiteToPdfUseCase = async ({
   },
   timeout = 60000,
 }) => {
-  const browser = await puppetteer.launch({
+  const browser = await puppeteer.launch({
     headless: true,
     args: ["--no-sandbox"],
   });
