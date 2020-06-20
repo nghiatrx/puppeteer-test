@@ -10,6 +10,12 @@ fastify.post("/websiteToPdf", async (request, reply) => {
   reply.code(200).header("Content-Type", "application/pdf").send(pdfBuffer);
 });
 
+fastify.get("/", async (request, reply) => {
+  reply.code(200).send({
+    message: "ok",
+  });
+});
+
 // Run the server!
 fastify.listen(3000, (err, address) => {
   if (err) throw err;
