@@ -4,7 +4,6 @@
     "puppeteer": "^4.0.0"
   },
   "scripts": {
-    "postinstall": "yarn",
     "start": "node index.js"
   }
 }
