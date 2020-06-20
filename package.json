@@ -4,6 +4,7 @@
     "puppeteer": "^4.0.0"
   },
   "scripts": {
-    "local": "serverless offline"
+    "postinstall": "yarn",
+    "start": "node index"
   }
 }
