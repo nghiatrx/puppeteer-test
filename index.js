@@ -1,7 +1,7 @@
 const { websiteToPdfUseCase } = require("./websiteToPdf.usecase");
 
 const fastify = require("fastify")({
-  logger: false,
+  logger: true,
 });
 
 // Declare a route
