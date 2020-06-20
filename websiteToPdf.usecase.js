@@ -15,7 +15,6 @@ module.exports.websiteToPdfUseCase = async ({
   },
   timeout = 60000,
 }) => {
-  console.log({ url });
   const browser = await puppeteer.launch();
   const page = await browser.newPage();
   await page.goto(url, { waitUntil, timeout });
